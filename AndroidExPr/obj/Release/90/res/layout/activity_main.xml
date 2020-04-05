@@ -1,0 +1,153 @@
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1">
+
+
+        <TextView
+            android:text="Sample\nPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F83D8FB7"
+            android:textColor="#FFF"
+            android:layout_marginTop="1dp"
+            android:id="@+id/TV1" />
+
+
+        <TextView
+            android:text="Medium\nPage"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F83D8FB7"
+            android:textColor="#FFF"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="120dp"
+            android:id="@+id/TV2"/>
+        <TextView
+            android:text="Sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:textColor="#BA0404"
+            android:background="#CCC"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="OneLargeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="#F83D8FB7"
+            android:textColor="#FFF"
+            android:id="@+id/TV3" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1"
+            <EditText
+                android:layout_width="190dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:background="#F8EFF8F3"
+                android:textColor="#333639"
+                android:textColorHint="333639"
+                android:id="@+id/Clk"
+                android:gravity="center_horizontal"
+                android:hint="Name"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"/>
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_marginRight="1dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Clk"
+                android:background="#F8EFF8F3"
+                android:textColor="#333639"
+                android:textColorHint="333639"
+                android:id="@+id/Clk1"
+                android:gravity="center_horizontal"
+                android:hint="subject"
+                android:layout_marginTop="5dp"
+                android:padding="16dp"/>
+
+            <EditText
+                android:hint="Message"
+                android:padding="16dp"
+                android:gravity="center"
+                android:id="@+id/Clk2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#F8EFF8F3"
+                android:textColor="#333639"
+                android:textColorHint="#333639"/>
+
+        </RelativeLayout>
+        <Button
+            android:text="Welcome \nDance\n world"
+            android:textSize="25dp"
+            android:background="#BA0404"
+            android:drawableLeft="@drawable/download"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5" />
+        <Button
+            android:text="YOU Want To Dance With Me"
+            android:textSize="25dp"
+            android:background="@drawable/download"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ButtonBorders"
+            android:padding="20dp"
+            android:text="Button border"
+            android:gravity="center"
+            android:id="@+id/button7" />
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/Round"
+            android:padding="20dp"
+            android:text="Round"
+            android:gravity="center_horizontal"
+            android:id="@+id/button2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/icon"
+            android:id="@+id/Img" />
+        <Button
+            android:text="Previous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3" />
+        <Button
+            android:text="Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4" />
+
+    </LinearLayout>
+</ScrollView>
